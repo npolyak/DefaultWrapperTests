@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NP.Roxy.DefaultWrappersTest
+namespace NP.Roxy.DefaultWrappersWithAttrsTest
 {
     public interface ISelectablePersonVM : IPersonDataVM, ISelectableItem<ISelectablePersonVM>
     {

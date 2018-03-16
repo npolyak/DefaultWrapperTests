@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{9342BBE0-79AA-47B5-8703-7A6C9107BCC3}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>NP.Roxy.DefaultWrappersTest</RootNamespace>
-    <AssemblyName>NP.Roxy.DefaultWrappersTest</AssemblyName>
+    <RootNamespace>NP.Roxy.DefaultWrappersWithAttrsTest</RootNamespace>
+    <AssemblyName>NP.Roxy.DefaultWrappersWithAttrsTest</AssemblyName>
     <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
