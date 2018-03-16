@@ -17,7 +17,12 @@ namespace NP.Roxy.DefaultWrappersTest
     {
         static void Main(string[] args)
         {
+            // map IPersonDataVM interface into the IPersonDataWrapper interface
+            // that defines how to implement it
             Core.SetWrapperType<IPersonDataVM, IPersonDataWrapper>();
+
+            // map ISelectableItem interface into the ISelectableItemWrapper interface
+            // that defines how to implement it
             Core.SetWrapperType(typeof(ISelectableItem<>), typeof(ISelectableItemWrapper<>));
 
             // create the instance of a class that implements ISelectablePersonVM
