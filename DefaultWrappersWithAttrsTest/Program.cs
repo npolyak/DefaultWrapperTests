@@ -19,7 +19,6 @@ namespace NP.Roxy.DefaultWrappersWithAttrsTest
         {
             // add NP.Utilities assembly 
             Core.AddTypeAssemblyStatic <ISelectableItem<ISelectablePersonVM>> ();
-
             // add this (NP.Roxy.DefaultWrappersWithAttrsTest) assembly
             Core.AddTypeAssemblyStatic<ISelectablePersonVM>();
 
