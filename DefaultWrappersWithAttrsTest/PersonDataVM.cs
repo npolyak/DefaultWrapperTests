@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using NP.Utilities.Attributes;
 
 namespace NP.Roxy.DefaultWrappersWithAttrsTest
 {
@@ -28,6 +29,7 @@ namespace NP.Roxy.DefaultWrappersWithAttrsTest
 
 
     // wrapper interface. 
+    [WrapperInterface(typeof(IPersonDataVM))]
     public interface IPersonDataWrapper
     {
         PersonDataVM ThePersonWrapper { get; }

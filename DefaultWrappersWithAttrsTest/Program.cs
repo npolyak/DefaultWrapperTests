@@ -17,8 +17,11 @@ namespace NP.Roxy.DefaultWrappersWithAttrsTest
     {
         static void Main(string[] args)
         {
-            Core.SetWrapperType<IPersonDataVM, IPersonDataWrapper>();
-            Core.SetWrapperType(typeof(ISelectableItem<>), typeof(ISelectableItemWrapper<>));
+            // add NP.Utilities assembly 
+            Core.AddTypeAssemblyStatic <ISelectableItem<ISelectablePersonVM>> ();
+
+            // add this (NP.Roxy.DefaultWrappersWithAttrsTest) assembly
+            Core.AddTypeAssemblyStatic<ISelectablePersonVM>();
 
             // create the instance of a class that implements ISelectablePersonVM
             // using automatic wrapper mappings defined above
