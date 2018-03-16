@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/DefaultWrappersTest/.vs/NP.Roxy.DefaultWrappersTest/v15
+/DefaultWrappersTest/obj/Debug
+/DefaultWrappersTest/packages
